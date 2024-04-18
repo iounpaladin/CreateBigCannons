@@ -111,6 +111,7 @@ public class CBCTags {
 
 			// Crafting tags
 			INGOT_IRON = commonTag("ingot_iron", "ingots/iron", "iron_ingots"),
+			INGOT_NETHERRITE = commonTag("ingot_netherite", "ingots/netherite", "netherite_ingots"),
 			NUGGET_IRON = commonTag("nugget_iron", "nuggets/iron", "iron_nuggets"),
 			SHEET_IRON = commonTag("sheet_iron", "plates/iron", "iron_plates"),
 			NUGGET_COPPER = commonTag("nugget_copper", "nuggets/copper", "copper_nuggets"),

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "I": {
+      "tag": "createbigcannons:ingot_iron"
+    }
+  },
+  "pattern": [
+    "C",
+    "I"
+  ],
+  "result": {
+    "count": 16,
+    "item": "createbigcannons:nap_autocannon_round"
+  },
+  "show_notification": true
+}

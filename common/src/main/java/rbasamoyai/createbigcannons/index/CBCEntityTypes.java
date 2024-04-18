@@ -19,6 +19,7 @@ import rbasamoyai.createbigcannons.munitions.BaseProjectileProperties;
 import rbasamoyai.createbigcannons.munitions.autocannon.AbstractAutocannonProjectile;
 import rbasamoyai.createbigcannons.munitions.autocannon.AutocannonProjectileRenderer;
 import rbasamoyai.createbigcannons.munitions.autocannon.ap_round.APAutocannonProjectile;
+import rbasamoyai.createbigcannons.munitions.autocannon.ap_round.NAPAutocannonProjectile;
 import rbasamoyai.createbigcannons.munitions.autocannon.bullet.MachineGunProjectile;
 import rbasamoyai.createbigcannons.munitions.autocannon.flak.FlakAutocannonProjectile;
 import rbasamoyai.createbigcannons.munitions.autocannon.flak.FlakAutocannonProjectileProperties;
@@ -121,6 +122,8 @@ public class CBCEntityTypes {
 		.renderer(() -> CannonCarriageRenderer::new)
 		.register();
 	public static final EntityEntry<APAutocannonProjectile> AP_AUTOCANNON = autocannonProjectile("ap_autocannon", APAutocannonProjectile::new, "Armor Piercing (AP) Autocannon Round", CBCMunitionPropertiesSerializers.INERT_AUTOCANNON_PROJECTILE);
+
+	public static final EntityEntry<NAPAutocannonProjectile> NAP_AUTOCANNON = autocannonProjectile("nap_autocannon", NAPAutocannonProjectile::new, "Nethersteel Core Autocannon Round", CBCMunitionPropertiesSerializers.INERT_AUTOCANNON_PROJECTILE);
 	public static final EntityEntry<FlakAutocannonProjectile> FLAK_AUTOCANNON = autocannonProjectile("flak_autocannon", FlakAutocannonProjectile::new, "Flak Autocannon Round", new FlakAutocannonProjectileProperties.Serializer());
 	public static final EntityEntry<MachineGunProjectile> MACHINE_GUN_BULLET = autocannonProjectile("machine_gun_bullet", MachineGunProjectile::new, CBCMunitionPropertiesSerializers.INERT_AUTOCANNON_PROJECTILE);
 

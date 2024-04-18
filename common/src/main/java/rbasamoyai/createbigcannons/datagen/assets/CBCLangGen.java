@@ -178,6 +178,10 @@ public class CBCLangGen {
 		.header("ARMOR PIERCING (AP) AUTOCANNON ROUND")
 		.summary("_Strong penetrating force._ Best suited for _soft targets_ such as _wooden structures and thin armor._ _Cannot be fuzed and detonated._");
 
+		tooltip(CBCItems.NAP_AUTOCANNON_ROUND)
+			.header("NETHERSTEEL CORE AUTOCANNON ROUND")
+			.summary("_Devastating penetrating force._ Will puncture _any target_ with impunity._ _Cannot be fuzed and detonated._");
+
 		tooltip(CBCItems.FLAK_AUTOCANNON_ROUND)
 		.header("FLAK AUTOCANNON ROUND")
 		.summary("Can be used to shoot out _airborne targets._ Peppers targets with _shrapnel._")

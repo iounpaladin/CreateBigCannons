@@ -227,6 +227,13 @@ public class CBCCraftingRecipeProvider {
 			.unlockedBy("has_cast_iron", has(CBCTags.CBCItemTags.INGOT_CAST_IRON))
 			.save(cons);
 
+		ShapedRecipeBuilder.shaped(RecipeCategory.MISC, CBCItems.NAP_AUTOCANNON_ROUND.get(), 16)
+			.define('C', CBCTags.CBCItemTags.INGOT_NETHERRITE).define('I', CBCTags.CBCItemTags.INGOT_IRON)
+			.pattern("C")
+			.pattern("I")
+			.unlockedBy("has_netherrite", has(CBCTags.CBCItemTags.INGOT_NETHERRITE))
+			.save(cons);
+
 		ShapedRecipeBuilder.shaped(RecipeCategory.MISC, CBCItems.FLAK_AUTOCANNON_ROUND.get(), 2)
 			.define('S', CBCItems.SHOT_BALLS.get()).define('G', CBCTags.CBCItemTags.GUNPOWDER).define('C', CBCTags.CBCItemTags.SHEET_IRON)
 			.pattern("S")

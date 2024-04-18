@@ -22,6 +22,7 @@ import rbasamoyai.createbigcannons.manual_loading.RamRodItem;
 import rbasamoyai.createbigcannons.manual_loading.WormItem;
 import rbasamoyai.createbigcannons.munitions.autocannon.AutocannonCartridgeItem;
 import rbasamoyai.createbigcannons.munitions.autocannon.ap_round.APAutocannonRoundItem;
+import rbasamoyai.createbigcannons.munitions.autocannon.ap_round.NAPAutocannonRoundItem;
 import rbasamoyai.createbigcannons.munitions.autocannon.bullet.MachineGunRoundItem;
 import rbasamoyai.createbigcannons.munitions.autocannon.flak.FlakAutocannonRoundItem;
 import rbasamoyai.createbigcannons.munitions.fuzes.DelayedImpactFuzeItem;
@@ -185,6 +186,11 @@ public class CBCItems {
 		.item("ap_autocannon_round", APAutocannonRoundItem::new)
 		.lang("Armor Piercing (AP) Autocannon Round")
 		.tag(CBCTags.CBCItemTags.AUTOCANNON_ROUNDS)
+		.register();
+
+	public static final ItemEntry<NAPAutocannonRoundItem> NAP_AUTOCANNON_ROUND = REGISTRATE
+		.item("nap_autocannon_round", NAPAutocannonRoundItem::new)
+		.lang("Nethersteel Core Autocannon Round")
 		.register();
 
 	public static final ItemEntry<FlakAutocannonRoundItem> FLAK_AUTOCANNON_ROUND = REGISTRATE

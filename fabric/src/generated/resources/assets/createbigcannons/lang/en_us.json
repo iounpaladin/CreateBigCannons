@@ -465,6 +465,10 @@
   "item.createbigcannons.ap_autocannon_round": "Armor Piercing (AP) Autocannon Round",
   "item.createbigcannons.ap_autocannon_round.tooltip": "ARMOR PIERCING (AP) AUTOCANNON ROUND",
   "item.createbigcannons.ap_autocannon_round.tooltip.summary": "_Strong penetrating force._ Best suited for _soft targets_ such as _wooden structures and thin armor._ _Cannot be fuzed and detonated._",
+  "item.createbigcannons.nap_autocannon_round": "Nethersteel Core Autocannon Round",
+  "item.createbigcannons.nap_autocannon_round.tooltip": "NETHERSTEEL CORE AUTOCANNON ROUND",
+  "item.createbigcannons.nap_autocannon_round.tooltip.summary": "_Devastating penetrating force._ Will puncture _any target_ with impunity._ _Cannot be fuzed and detonated._",
+  "item.createbigcannons.autocannon_ammo_container": "Autocannon Ammo Container",
   "item.createbigcannons.autocannon_cartridge": "Autocannon Cartridge",
   "item.createbigcannons.autocannon_cartridge_sheet": "Autocannon Cartridge Sheet",
   "item.createbigcannons.big_cartridge_sheet": "Big Cartridge Sheet",
@@ -646,3 +650,4 @@
   "tooltip.createbigcannons.jei_info.added_power": "+ Power",
   "tooltip.createbigcannons.tracer": "+ Tracer"
 }
+
